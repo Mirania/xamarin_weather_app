@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Weather"
+             x:Class="Weather.MainPage">
+
+    <StackLayout>
+        <Label Text="Welcome to Xamarin Weather!" 
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"
+               Margin="30"
+               FontSize="Large"
+               />
+        <ListView  x:Name="list" RowHeight="60" ItemTapped="OnItemSelected">
+            <ListView.Header>
+                <Button x:Name="addbtn"  Text="Add a new location"  Clicked="VisitSelectionModal"/>
+            </ListView.Header>
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="Fill" BackgroundColor="LightCyan">
+                                <Image Source="{Binding Image}" AbsoluteLayout.LayoutBounds="250.25, 0.25, 50, 50 "/>
+                                <StackLayout Orientation="Vertical">
+                                    <Label Text = "{Binding Name}" FontSize="24" AbsoluteLayout.LayoutBounds="0.25, 0.25, 400, 40"/>
+                                    <Label Text = "{Binding LastChecked}" AbsoluteLayout.LayoutBounds="50, 35, 200, 25"/>
+                                </StackLayout>
+                            <Button x:Name="delbtn" Text="Remove" HorizontalOptions="EndAndExpand"  Clicked="RemoveEntry">
+                            </Button>
+                        </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+
+</ContentPage>

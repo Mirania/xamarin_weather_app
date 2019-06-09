@@ -1,0 +1,1 @@
+D:\Projetos\GitHub\xamarin_weather_app\Weather\Weather.UWP\Weather.UWP.csproj;x86

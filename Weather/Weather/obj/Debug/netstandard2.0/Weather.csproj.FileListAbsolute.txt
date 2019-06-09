@@ -1,0 +1,13 @@
+D:\Projetos\GitHub\xamarin_weather_app\Weather\Weather\bin\Debug\netstandard2.0\Weather.deps.json
+D:\Projetos\GitHub\xamarin_weather_app\Weather\Weather\bin\Debug\netstandard2.0\Weather.dll
+D:\Projetos\GitHub\xamarin_weather_app\Weather\Weather\bin\Debug\netstandard2.0\Weather.pdb
+D:\Projetos\GitHub\xamarin_weather_app\Weather\Weather\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\Projetos\GitHub\xamarin_weather_app\Weather\Weather\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\Projetos\GitHub\xamarin_weather_app\Weather\Weather\obj\Debug\netstandard2.0\SelectionModal.xaml.g.cs
+D:\Projetos\GitHub\xamarin_weather_app\Weather\Weather\obj\Debug\netstandard2.0\StatsPage.xaml.g.cs
+D:\Projetos\GitHub\xamarin_weather_app\Weather\Weather\obj\Debug\netstandard2.0\Weather.csproj.CoreCompileInputs.cache
+D:\Projetos\GitHub\xamarin_weather_app\Weather\Weather\obj\Debug\netstandard2.0\Weather.AssemblyInfoInputs.cache
+D:\Projetos\GitHub\xamarin_weather_app\Weather\Weather\obj\Debug\netstandard2.0\Weather.AssemblyInfo.cs
+D:\Projetos\GitHub\xamarin_weather_app\Weather\Weather\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Projetos\GitHub\xamarin_weather_app\Weather\Weather\obj\Debug\netstandard2.0\Weather.dll
+D:\Projetos\GitHub\xamarin_weather_app\Weather\Weather\obj\Debug\netstandard2.0\Weather.pdb

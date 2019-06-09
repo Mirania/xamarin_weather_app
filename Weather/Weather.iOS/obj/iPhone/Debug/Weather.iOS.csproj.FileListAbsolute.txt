@@ -1,0 +1,8 @@
+D:\Projetos\GitHub\xamarin_weather_app\Weather\Weather.iOS\obj\iPhone\Debug\ibtool\_BundleResourceWithLogicalName.items
+D:\Projetos\GitHub\xamarin_weather_app\Weather\Weather.iOS\obj\iPhone\Debug\actool\_PartialAppManifest.items
+D:\Projetos\GitHub\xamarin_weather_app\Weather\Weather.iOS\obj\iPhone\Debug\actool\_BundleResourceWithLogicalName.items
+D:\Projetos\GitHub\xamarin_weather_app\Weather\Weather.iOS\obj\iPhone\Debug\coremlc\_PartialAppManifest.items
+D:\Projetos\GitHub\xamarin_weather_app\Weather\Weather.iOS\obj\iPhone\Debug\coremlc\_BundleResourceWithLogicalName.items
+D:\Projetos\GitHub\xamarin_weather_app\Weather\Weather.iOS\obj\iPhone\Debug\optimized\
+D:\Projetos\GitHub\xamarin_weather_app\Weather\Weather.iOS\obj\iPhone\Debug\Weather.iOS.csprojAssemblyReference.cache
+D:\Projetos\GitHub\xamarin_weather_app\Weather\Weather.iOS\obj\iPhone\Debug\Weather.iOS.csproj.CoreCompileInputs.cache

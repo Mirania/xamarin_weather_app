@@ -1,0 +1,3 @@
+D:\Projetos\GitHub\xamarin_weather_app\Weather\Weather.Android\obj\Debug\81\MonoAndroid,Version=v8.1.AssemblyAttributes.cs
+D:\Projetos\GitHub\xamarin_weather_app\Weather\Weather.Android\obj\Debug\81\libraryimports.cache.stamp
+D:\Projetos\GitHub\xamarin_weather_app\Weather\Weather.Android\obj\Debug\81\res.flag

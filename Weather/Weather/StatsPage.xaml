@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Weather.StatsPage">
+    <ContentPage.Content>
+        <AbsoluteLayout>
+            <Button AbsoluteLayout.LayoutBounds=".9,.1,.3,.08" Text="Refresh" Clicked="Refresh" AbsoluteLayout.LayoutFlags="All"/>
+            <Button AbsoluteLayout.LayoutBounds=".1,.1,.3,.08" Text="Go Back" Clicked="GoBack" AbsoluteLayout.LayoutFlags="All"/>
+            <Label x:Name="title"
+                AbsoluteLayout.LayoutBounds=".5,.1,.5,.1" AbsoluteLayout.LayoutFlags="All"
+                LineBreakMode="WordWrap" HorizontalTextAlignment="Center"  />
+            <Image x:Name="img"
+                AbsoluteLayout.LayoutBounds=".5,.2,.15,.15" AbsoluteLayout.LayoutFlags="All" />
+            <Label x:Name="flavor"
+                AbsoluteLayout.LayoutBounds=".5,.4,.5,.1" AbsoluteLayout.LayoutFlags="All"
+                LineBreakMode="WordWrap" HorizontalTextAlignment="Center"  />
+            <Grid AbsoluteLayout.LayoutBounds=".5,.85,.5,.35" AbsoluteLayout.LayoutFlags="All">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="25" />
+                    <RowDefinition Height="25" />
+                    <RowDefinition Height="25" />
+                    <RowDefinition Height="25" />
+                    <RowDefinition Height="25" />
+                    <RowDefinition Height="25" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Label Text="Requested" HorizontalTextAlignment="End" TextColor="CornflowerBlue" FontAttributes="Bold" Grid.Row="0" Grid.Column="0" />
+                <Label x:Name="req" Text="-" Grid.Row="0" Grid.Column="1" />
+                <Label Text="Data Collected" TextColor="CornflowerBlue"  HorizontalTextAlignment="End" FontAttributes="Bold" Grid.Row="1" Grid.Column="0" />
+                <Label x:Name="col" Text="-" Grid.Row="1" Grid.Column="1" />
+                <Label Text="Temperature" HorizontalTextAlignment="End" TextColor="CornflowerBlue" FontAttributes="Bold" Grid.Row="2" Grid.Column="0" />
+                <Label x:Name="temp" Text="-" Grid.Row="2" Grid.Column="1" />
+                <Label Text="Precipitation" HorizontalTextAlignment="End" TextColor="CornflowerBlue" FontAttributes="Bold" Grid.Row="3" Grid.Column="0" />
+                <Label x:Name="prec" Text="-" Grid.Row="3" Grid.Column="1" />
+                <Label Text="Wind" HorizontalTextAlignment="End" TextColor="CornflowerBlue" FontAttributes="Bold" Grid.Row="4" Grid.Column="0" />
+                <Label x:Name="wind" Text="-" Grid.Row="4" Grid.Column="1" />
+                <Label Text="Humidity" HorizontalTextAlignment="End" TextColor="CornflowerBlue" FontAttributes="Bold" Grid.Row="5" Grid.Column="0" />
+                <Label x:Name="hum" Text="-" Grid.Row="5" Grid.Column="1" />
+            </Grid>
+        </AbsoluteLayout>
+    </ContentPage.Content>
+</ContentPage>
